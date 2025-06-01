@@ -4,10 +4,12 @@
 // compile with -lc (libc)
 #include <stdint.h>
 
+/*
 struct thread_context_s {
 	uint32_t t_id;	
 };
 typedef struct thread_context_s thread_context_t;
+*/
 
 struct arena_s {
 	uint8_t * data;
