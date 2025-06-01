@@ -17,6 +17,7 @@ struct arena_s {
 	size_t size;
 };
 typedef struct arena_s arena_t;
+typedef struct arena_t * Arena_t; // so you dont have to write &arena everywhere :)
 
 int arena_create(arena_t * arena, size_t size);
 void arena_clear(arena_t * arena);
